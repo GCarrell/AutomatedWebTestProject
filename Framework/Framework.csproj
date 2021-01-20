@@ -19,7 +19,6 @@
 
   <ItemGroup>
     <Folder Include="BDD\" />
-    <Folder Include="tests\" />
   </ItemGroup>
 
 </Project>

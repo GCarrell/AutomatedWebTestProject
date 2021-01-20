@@ -2,13 +2,15 @@
 
 ## Project Aims
 
+The project aims are to create an automated testing framework for the functionality of the SWAGLABS website. Using page object models (POM), Selenium and SpecFlow.
+
 ## Class diagram and Directory Tree
 
 ## Sprint Breakdown
 
 ### Sprint 1 - Thursday 21st January 2020
 
-Sprint goal desc
+By the end of this sprint we aim to complete all of the epics, project reviews and documentation.
 
 Sprint Goals
 

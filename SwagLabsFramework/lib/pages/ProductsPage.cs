@@ -10,7 +10,9 @@ namespace SwagLabsFramework
 
         private string ProductsPageUrl = AppConfigReader.ProductsPageUrl;
         private IWebElement _cart => _seleniumDriver.FindElement(By.CssSelector("path"));
+
         private IWebElement _cartCount => _seleniumDriver.FindElement(By.CssSelector(".fa-layers-counter"));
+
 
         public ProductsPage(IWebDriver seleniumDriver)
         {
@@ -36,6 +38,7 @@ namespace SwagLabsFramework
             _cart.Click();
         }
 
+
         public string CartCount()
 		{
             return _cartCount.Text;
@@ -45,5 +48,6 @@ namespace SwagLabsFramework
 		{
             return ProductsPageUrl;
 		}
+
     }
 }

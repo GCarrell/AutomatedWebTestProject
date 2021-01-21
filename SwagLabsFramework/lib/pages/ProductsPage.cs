@@ -1,5 +1,6 @@
 ﻿using System;
 using OpenQA.Selenium;
+using System.Threading;
 
 namespace SwagLabsFramework
 {
@@ -10,6 +11,9 @@ namespace SwagLabsFramework
         private string ProductsPageUrl = AppConfigReader.ProductsPageUrl;
         private IWebElement _cart => _seleniumDriver.FindElement(By.CssSelector("path"));
 
+        private IWebElement _cartCount => _seleniumDriver.FindElement(By.CssSelector(".fa-layers-counter"));
+
+
         public ProductsPage(IWebDriver seleniumDriver)
         {
             _seleniumDriver = seleniumDriver;
@@ -19,6 +23,7 @@ namespace SwagLabsFramework
         {
             _seleniumDriver.Navigate().GoToUrl(ProductsPageUrl);
         }
+
         public void AddToCart(string item_no)
         {
             _seleniumDriver.FindElement(By.CssSelector($".inventory_item:nth-child({item_no}) .btn_primary")).Click();
@@ -32,5 +37,17 @@ namespace SwagLabsFramework
         {
             _cart.Click();
         }
+
+
+        public string CartCount()
+		{
+            return _cartCount.Text;
+		}
+
+        public string Url()
+		{
+            return ProductsPageUrl;
+		}
+
     }
 }

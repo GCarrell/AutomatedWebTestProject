@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Framework", "Framework.csproj", "{AD1A257B-0A3A-40B1-90DF-EF08956D30EA}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwagLabsFramework", "..\SwagLabsFramework\SwagLabsFramework.csproj", "{27D013A6-A4B1-4506-8E97-444315B3FBCB}"
 EndProject
 Global
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AD1A257B-0A3A-40B1-90DF-EF08956D30EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AD1A257B-0A3A-40B1-90DF-EF08956D30EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AD1A257B-0A3A-40B1-90DF-EF08956D30EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AD1A257B-0A3A-40B1-90DF-EF08956D30EA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{27D013A6-A4B1-4506-8E97-444315B3FBCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{27D013A6-A4B1-4506-8E97-444315B3FBCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27D013A6-A4B1-4506-8E97-444315B3FBCB}.Release|Any CPU.ActiveCfg = Release|Any CPU

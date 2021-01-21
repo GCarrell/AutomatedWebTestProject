@@ -102,7 +102,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppConfigReader.cs" />
+    <Compile Include="BDD\Cart.feature.cs" />
     <Compile Include="BDD\CartSteps.cs" />
+    <Compile Include="BDD\CheckoutPage.feature.cs" />
+    <Compile Include="BDD\CheckoutPageSteps.cs" />
+    <Compile Include="BDD\SigninSteps.cs" />
     <Compile Include="lib\driver_config\SeleniumDriverConfig.cs" />
     <Compile Include="lib\pages\CartPage.cs" />
     <Compile Include="lib\pages\CheckoutPage.cs" />
@@ -114,6 +118,8 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="BDD\Cart.feature" />
+    <None Include="BDD\CheckoutPage.feature" />
+    <None Include="BDD\Signin.feature" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />

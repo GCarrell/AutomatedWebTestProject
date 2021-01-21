@@ -13,6 +13,9 @@ namespace SwagLabsFramework
 
         private IWebElement _cartCount => _seleniumDriver.FindElement(By.CssSelector(".fa-layers-counter"));
 
+        private IWebElement _sidebarButton => _seleniumDriver.FindElement(By.ClassName("bm-burger-button"));
+
+        private IWebElement _logoutButton => _seleniumDriver.FindElement(By.Id("logout_sidebar_link"));
 
         public ProductsPage(IWebDriver seleniumDriver)
         {
@@ -49,5 +52,14 @@ namespace SwagLabsFramework
             return ProductsPageUrl;
 		}
 
+        public void OpenSidebar()
+        {
+            _sidebarButton.Click();
+        }
+
+        public void ClickLogout()
+        {
+            _logoutButton.Click();
+        }
     }
 }

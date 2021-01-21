@@ -1,7 +1,7 @@
-﻿using OpenQA.Selenium;
-using System;
+﻿using System;
+using OpenQA.Selenium;
 
-namespace Framework
+namespace SwagLabsFramework
 {
     public class SigninPage
     {

@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="tests\" />
+    <Folder Include="BDD\" />
   </ItemGroup>
 
 </Project>

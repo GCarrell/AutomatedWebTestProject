@@ -120,6 +120,7 @@
     <None Include="BDD\Cart.feature" />
     <None Include="BDD\CheckoutPage.feature" />
     <None Include="BDD\Signin.feature" />
+    <None Include="ClassDiagram.cd" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
